@@ -1,4 +1,4 @@
-FROM node:latest
+FROM alpine
 LABEL maintainer="steliosot@hotmail.com"
 RUN apk add --update nodejs npm
 COPY . /src
